@@ -1,4 +1,5 @@
 function szovegIras(){
-    const beviteliSzoveg = document.getElementById(bevitel);
-    szoveg.textContent = beviteliSzoveg.value ;
+    const bemenet = document.getElementById('bemenet');
+    const szoveg = document.getElementById('szoveg');
+    szoveg.textContent = bemenet.value ;
 }
